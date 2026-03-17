@@ -26,7 +26,7 @@ pip install xarm-python-sdk pyrealsense2 opencv-contrib-python scipy
 
 ### Bước 1: Kiểm tra nhận diện (`chessboard.py`)
 1.  Đảm bảo biến `CHESSBOARD_SIZE` trong code khớp với số góc giao nhau bên trong tấm bàn cờ của bạn.
-    * *Ví dụ: Bàn cờ 11x8 ô vuông tương ứng với (10, 7) góc trong.*
+    * *Ví dụ: Bàn cờ 12x9 ô vuông tương ứng với (11, 8) góc trong.*
 2.  Chạy script để kiểm tra luồng video:
     ```bash
     python chessboard.py
